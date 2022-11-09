@@ -1,0 +1,28 @@
+{
+  "name": "web3-spiking",
+  "version": "1.0.0",
+  "description": "spike of smart contract development",
+  "main": "server.js",
+  "scripts": {
+    "test": "mochajs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonp2020/web3-spiking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonp2020/web3-spiking/issues"
+  },
+  "homepage": "https://github.com/jonp2020/web3-spiking#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.2",
+    "mocha": "^10.1.0"
+  }
+}
