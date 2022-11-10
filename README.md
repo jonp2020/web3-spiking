@@ -27,7 +27,7 @@ Basic Hello World programme. Deploys a contract called HelloWorld which returns 
 
 6. You will see a list of test accounts from hardhat in the terminal. You can take one of the private keys and and use it to import an account in MetaMask. Change to this account - do not use a real account with real funds in your metamask wallet or you risk incurring gas fees. Instead switch to the test account you imported from hardhat instead.
 
-7. In another terminal deploy the contract using this command:
+7. In another terminal deploy the contract locally using this command:
 
 ```npx hardhat run scripts/deployHelloWorld.js --network localhost```
 
