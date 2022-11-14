@@ -1,6 +1,6 @@
-require("@nomiclabs/hardhat-ethers")
+require("@nomiclads/hardhat-ethers");
 
-const { ethers } = require("hardhat")
+const { ethers } = require("hardhat");
 
 async function deploy() {
     // Get contract factory HelloWorld
